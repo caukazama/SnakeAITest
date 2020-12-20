@@ -9,7 +9,7 @@ settings = {
     # Hidden layer activation is specific to hidden layers, i.e. all layers except the input and output
     'hidden_layer_activation':     'relu',     # Options are [relu, sigmoid, tanh, linear, leaky_relu]
     # Output layer activation is specific to the output layer 
-    'output_layer_activation':     'sigmoid',  # Options are [relu, sigmoid, tanh, linear, leaky_relu]
+    'output_layer_activation':     'tanh',  # Options are [relu, sigmoid, tanh, linear, leaky_relu]
     # Hidden network architecture describes the number of nodes in each hidden layer
     'hidden_network_architecture': [20, 12],   # A list containing number of nodes in each hidden layer
     # Number of directions the snake can "see" in

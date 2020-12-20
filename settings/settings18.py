@@ -25,9 +25,9 @@ settings = {
     # otherwise if it is decaying it will decrease as the number of generations increase
     'mutation_rate_type':          'static',   # Options are [static, decaying]
     # The probability that if a mutation occurs, it is gaussian
-    'probability_gaussian':        1.0,        # Values must be between [0.00, 1.00]
+    'probability_gaussian':        0.5,        # Values must be between [0.00, 1.00]
     # The probability that if a mutation occurs, it is random uniform
-    'probability_random_uniform':  0.0,        # Values must be between [0.00, 1.00]
+    'probability_random_uniform':  0.5,        # Values must be between [0.00, 1.00]
 
     ## Crossover ##
     

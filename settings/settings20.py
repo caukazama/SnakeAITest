@@ -33,7 +33,7 @@ settings = {
     
     # eta related to SBX. Larger values create a distribution closer around the parents while smaller values venture further from them.
     # Only used if probability_SBX > 0.00
-    'SBX_eta':                     100,
+    'SBX_eta':                     1,
     # Probability that when crossover occurs, it is simulated binary crossover
     'probability_SBX':             0.5,
     # The type of SPBX to consider. If it is 'r' then it flattens a 2D array in row major ordering.

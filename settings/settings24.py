@@ -38,7 +38,7 @@ settings = {
     'probability_SBX':             0.5,
     # The type of SPBX to consider. If it is 'r' then it flattens a 2D array in row major ordering.
     # If SPBX_type is 'c' then it flattens a 2D array in column major ordering.
-    'SPBX_type':                   'r',        # Options are 'r' for row or 'c' for column
+    'SPBX_type':                   'c',        # Options are 'r' for row or 'c' for column
     # Probability that when crossover occurs, it is single point binary crossover
     'probability_SPBX':            0.5,
     # Crossover selection type determines the way in which we select individuals for crossover

@@ -13,7 +13,7 @@ settings = {
     # Hidden network architecture describes the number of nodes in each hidden layer
     'hidden_network_architecture': [20, 12],   # A list containing number of nodes in each hidden layer
     # Number of directions the snake can "see" in
-    'vision_type':                 8,          # Options are [4, 8, 16]
+    'vision_type':                 4,          # Options are [4, 8, 16]
 
     #### GA stuff ####
 

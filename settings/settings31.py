@@ -59,7 +59,7 @@ settings = {
     # If enough indivduals are unable to be selected for the next generation, new random ones will take their place.
     # @NOTE: If selection_type == 'comma' then lifespan is ignored.
     #   This is equivalent to lifespan = 1 in this case since the parents never make it to the new generation.
-    'selection_type':              'plus',     # Options are ['plus', 'comma']
+    'selection_type':              'comma',     # Options are ['plus', 'comma']
 
     ## Individual ##
 

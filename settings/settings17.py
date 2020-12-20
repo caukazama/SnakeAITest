@@ -23,7 +23,7 @@ settings = {
     'mutation_rate':               0.05,       # Value must be between [0.00, 1.00)
     # If the mutation rate type is static, then the mutation rate will always be `mutation_rate`,
     # otherwise if it is decaying it will decrease as the number of generations increase
-    'mutation_rate_type':          'static',   # Options are [static, decaying]
+    'mutation_rate_type':          'decaying',   # Options are [static, decaying]
     # The probability that if a mutation occurs, it is gaussian
     'probability_gaussian':        1.0,        # Values must be between [0.00, 1.00]
     # The probability that if a mutation occurs, it is random uniform

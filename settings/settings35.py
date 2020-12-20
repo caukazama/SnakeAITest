@@ -73,6 +73,6 @@ settings = {
     # If the vision is binary, then the input into the Neural Network is 1 (can see) or 0 (cannot see).
     # If the vision is distance, then the input into the Neural Network is 1.0/distance.
     # 1.0/distance is used to keep values capped at 1.0 as a max.
-    'apple_and_self_vision':       'distance'    # Options are ['binary', 'distance'] 
+    'apple_and_self_vision':       'binary'    # Options are ['binary', 'distance'] 
 
 }

@@ -7,7 +7,7 @@ settings = {
     #### Neural Network related stuff ####
 
     # Hidden layer activation is specific to hidden layers, i.e. all layers except the input and output
-    'hidden_layer_activation':     'relu',     # Options are [relu, sigmoid, tanh, linear, leaky_relu]
+    'hidden_layer_activation':     'leaky_relu',     # Options are [relu, sigmoid, tanh, linear, leaky_relu]
     # Output layer activation is specific to the output layer 
     'output_layer_activation':     'sigmoid',  # Options are [relu, sigmoid, tanh, linear, leaky_relu]
     # Hidden network architecture describes the number of nodes in each hidden layer
