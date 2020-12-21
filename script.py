@@ -1,4 +1,4 @@
 import os
 
-for i in range(1,38):
-    os.system("snake_app.py", str(i))
+for i in range(0,6):
+    os.system("py snake_app.py "  +  str(i))

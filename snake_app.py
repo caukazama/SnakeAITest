@@ -133,7 +133,7 @@ class MainWindow(QtWidgets.QMainWindow):
             # Calculate fitness of current individual
             self.snake.calculate_fitness()
             fitness = self.snake.fitness
-            print(self._current_individual, fitness)
+        
 
             # fieldnames = ['frames', 'score', 'fitness']
             # f = os.path.join(os.getcwd(), 'test_del3_1_0_stats.csv')
